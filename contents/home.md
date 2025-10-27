@@ -1,17 +1,17 @@
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
+[![LeZheng-x](https://img.shields.io/badge/LeZheng-github-blue?logo=github)](https://github.com/LeZheng-x)
 
-He is currently a Fellow in the Department of Earth and Planetary Sciences (EPS) at Harvard University.
+He is currently a Master in the School of Computer Science and Technology at Sun Yat-sen University.
 
 #### Contact
 
-Email: senli[at]fas.harvard.edu
+Email: zhengle3@mail2.sysu.edu.cn
 
 #### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025.\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
+M.E., Computer Science and Technology, Sun Yat-sen University, 2024—2027.\
+B.E., Information Science and Engineering, Northeastern University, 2020—2024.
 
 #### Research Interests
-Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
+Robotics, Diffusion Policy, Reinforcement Learning, Mobile Manipulation.
 
