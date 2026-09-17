@@ -2,7 +2,7 @@
 
 - <strong class="publication-title">GeoPT: Privileged Geometric Post-Training for One-Step Whole-Body Motion Planning in Mobile Manipulation</strong><br>
   <span class="publication-authors"><strong>Le Zheng</strong>, Shuhang Wang, Zixuan Zhuang, Hao Ren, Yiming Zeng, Hui Cheng</span><br>
-  <span class="publication-meta">IEEE International Conference on Robotics &amp; Automation (ICRA), 2027 &middot; [[Website]](https://geopt-commits.github.io/)</span>
+  <span class="publication-meta">IEEE International Conference on Robotics &amp; Automation (ICRA), 2027 &middot; [[Website]](https://geopt-commits.github.io/) [[Paper]](static/assets/paper/GeoPT.pdf) </span>
 
 - <strong class="publication-title">STAR: Sparse Tactile Representation Learning in Vision&ndash;Tactile&ndash;Language&ndash;Action Models for Dexterous Manipulation</strong><br>
   <span class="publication-authors">Xiangcheng Liu*, Tianhao Wu*, <strong>Le Zheng*</strong>, Yidong Wang, Bowen Jiang, Mingjie Pan, Xinlin Ren, Yi Liu, Jianlan Luo</span><br>
