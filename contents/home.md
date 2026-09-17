@@ -15,5 +15,5 @@ M.E., Computer Science and Technology, [Sun Yat-sen University](https://www.sysu
 B.E., Information Science and Engineering, [Northeastern University](https://english.neu.edu.cn/#industries), 2020—2024.
 
 #### Research Interests
-Embodied AI, Dexterous Manipulation, Mobile Manipulation.
+Dexterous Manipulation, Mobile Manipulation.
 
