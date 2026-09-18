@@ -1,4 +1,4 @@
-Le Zheng is a master's student in Computer Science and Technology at [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/). He is a member of the [Rapid Lab](http://lab.sysu-robotics.com/lab/index) and is advised by Prof. [Hui Cheng](https://cse.sysu.edu.cn/teacher/ChengHui). His research focuses on dexterous manipulation and mobile manipulation.
+Le Zheng is a master's student in Computer Technology at [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/). He is a member of the [Rapid Lab](http://lab.sysu-robotics.com/lab/index) and is advised by Prof. [Hui Cheng](https://cse.sysu.edu.cn/teacher/ChengHui). His research focuses on dexterous manipulation and mobile manipulation.
 
 He is also a research intern with the Embodied AI Research Center at [AgiBot](https://www.agibot.com/), where he works on dexterous manipulation algorithms under the mentorship of [Tianhao Wu](https://tianhaowuhz.github.io/) and [Jianlan Luo](https://jianlanluo.github.io/).
 
@@ -10,8 +10,8 @@ Dexterous manipulation and mobile manipulation.
 
 #### Education
 
-- M.E. in Computer Science and Technology, [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/), 2024–2027.
-- B.E. in Information Science and Engineering, [Northeastern University](https://english.neu.edu.cn/#industries), 2020–2024.
+- M.E. in Computer Technology, [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/), 2024–2027 (Average: 89/100).
+- B.E. in Measurement and Control Technology and Instrument, [Northeastern University](https://english.neu.edu.cn/#industries), 2020–2024 (Average: 87/100).
 
 #### Contact
 

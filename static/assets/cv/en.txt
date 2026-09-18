@@ -1,0 +1,132 @@
+#import "@preview/basic-resume:0.2.9": *
+
+// Put your personal information here
+#let name = "Le Zheng"
+#let location = "Guangzhou, China"
+#let email = "zhengle3@mail2.sysu.edu.cn"
+#let github = ""
+#let linkedin = ""
+#let phone = "+86 158-47359042"
+#let personal-site = "lezheng-x.github.io/"
+
+#show: resume.with(
+  author: name,
+  location: location,
+  email: email,
+  github: github,
+  linkedin: linkedin,
+  phone: phone,
+  personal-site: personal-site,
+  accent-color: "#26428b",
+  font: "New Computer Modern",
+  paper: "us-letter",
+  author-position: left,
+  personal-info-position: left,
+)
+
+== Research Interests
+Dexterous Manipulation | Mobile Manipulation | End-to-End Navigation
+
+== Education
+
+#edu(
+  institution: "Sun Yat-sen University",
+  location: "Guangzhou, China",
+  dates: dates-helper(start-date: "Sep 2024", end-date: "Jul 2027"),
+  degree: "Master of Computer Technology",
+)
+- Advisor: Prof. Hui Cheng, Rapid Lab 
+- Admission: Recommended for admission without examination
+- Average Score: 89/100
+
+#edu(
+  institution: "Northeastern University",
+  location: "Shenyang, China",
+  dates: dates-helper(start-date: "Sep 2020", end-date: "Jul 2024"),
+  degree: "Bachelor of Measurement and Control Technology and Instrument",
+)
+- Average Score: 87/100
+
+== Work Experience
+
+#work(
+  title: "Embodied AI Algorithm Intern",
+  location: "Shanghai, China",
+  company: "Agibot",
+  dates: dates-helper(start-date: "Mar 2026", end-date: "Jul 2026"),
+)
+- Constructed and integrated the multimodal *Vision-Tactile-Language-Action (VTLA)* algorithm architecture for bimanual dexterous manipulation tasks (earphone flipping / multi-object grasping).
+- Trained $pi_0.5$ models and conducted *Visual-Tactile Joint Pre-training*. Streamlined the full pipeline from high-quality multimodal data collection and cleaning to large model pre-training and post-training, successfully deploying it on real dexterous hands.
+- Co-authored *STAR*, currently under review at *ICRA 2027*.
+
+#work(
+  title: "Research Intern",
+  location: "Guangzhou, China",
+  company: "Rapid Lab, Sun Yat-sen University",
+  dates: dates-helper(start-date: "Apr 2024", end-date: "Aug 2024"),
+)
+- Designed and implemented visual servo reinforcement learning algorithms targeting *mobile manipulation* tasks (door opening / grasping).
+- Developed PPO reinforcement learning algorithms based on the *iGibson* simulator and designed task-oriented reward functions for end-effector decision-making.
+- Co-authored related research accepted by *ICRA 2025*.
+
+#work(
+  title: "Algorithm Group Leader",
+  location: "Shenyang, China",
+  company: "T-DT Lab, Northeastern University",
+  dates: dates-helper(start-date: "Sep 2021", end-date: "Aug 2023"),
+)
+- Led the algorithm team in driving technical breakthroughs and tactical coordination.
+- Architected and deployed visual recognition algorithms and moving target tracking strategies, significantly enhancing the robot's auto-aiming accuracy in real combat scenarios. Designed automatic infantry decision algorithms for the 2023 season.
+- Achieved *Regional Champion* in the 2022 season and *National Runner-up* in the 2023 season of the RoboMaster University Championship (RMUC).
+
+== Publications
+
+=== Under Review
+
+- *GeoPT: Privileged Geometric Post-Training for One-Step Whole-Body Motion Planning in Mobile Manipulation* \
+  *Le Zheng*, Shuhang Wang, Zixuan Zhuang, Hao Ren, Yiming Zeng, Hui Cheng \
+  _IEEE International Conference on Robotics & Automation (ICRA), 2027_ | #link("https://geopt-commits.github.io/")[Website] | #link("https://lezheng-x.github.io/static/assets/paper/GeoPT.pdf")[Paper]
+
+- *STAR: Sparse Tactile Representation Learning in Vision–Tactile–Language–Action Models for Dexterous Manipulation* \
+  Xiangcheng Liu\*, Tianhao Wu\*, *Le Zheng\**, Yidong Wang, Bowen Jiang, Mingjie Pan, Xinlin Ren, Yi Liu, Jianlan Luo \
+  _IEEE International Conference on Robotics & Automation (ICRA), 2027_ | #link("https://staranonymousio.github.io/")[Website] | #link("https://arxiv.org/abs/2609.12549v1")[arXiv]
+
+=== Published
+
+- *Unordered Landmark Visual Navigation* \
+  Hao Ren, Junzhe Zhu, Yihan Li, Zetong Bi, *Le Zheng*, Zhi Li, Yiqing Yuan, Zhaoliang Wan, Dizhe Zhang, Lu Qi, Hui Cheng \
+  _The 19th European Conference on Computer Vision (ECCV), 2026_ | *Oral* | #link("https://hren20.github.io/ulvn-website/")[Website] | #link("https://arxiv.org/abs/2608.06833")[arXiv]
+
+- *Fisher-Preserving Guidance: Training-Free Manifold Constraints for Safe Diffusion Control* \
+  Hao Ren, Zetong Bi, Yiming Zeng, *Le Zheng*, Zhi Li, Zhaoliang Wan, Lu Qi, Hui Cheng \
+  _Proceedings of the 43rd International Conference on Machine Learning (ICML), 2026_ | *Poster* | #link("https://arxiv.org/abs/2605.29937")[arXiv]
+
+- *SR-Planner: Sampling-Based Path Planning with Feasibility-Aware Focus Regions and Robust Trajectory Optimization for Mobile Manipulator* \
+  Shuhang Wang, *Le Zheng*, Yiming Zeng, Hui Cheng \
+  _IEEE Robotics and Automation Letters (R-AL), 2025_ | #link("https://ieeexplore.ieee.org/document/11260963")[Paper] | #link("https://www.bilibili.com/video/BV18qCYBEENx")[Video]
+
+- *RM-Planner: Integrating Reinforcement Learning with Whole-Body Model Predictive Control for Mobile Manipulation* \
+  Zixuan Zhuang\*, *Le Zheng\**, Wanyue Li, Renming Liu, Peng Lu, Hui Cheng \
+  _IEEE International Conference on Robotics & Automation (ICRA), 2025_ | #link("https://www.semanticscholar.org/paper/RM-Planner%3A-Integrating-Reinforcement-Learning-with-Zhuang-Zheng/9c61cbb5b2a0077563f687de93de555ed3d423bf")[Paper] | #link("https://www.bilibili.com/video/BV1atQ6YqEdm")[Video]
+
+#text(size: 8pt)[\* Equal contribution.]
+
+== Selected Academic Project
+
+#project(
+  name: "(2025)",
+  role: "Diff-Planner: Cascaded Diffusion-Based Quadrotor Navigation"
+)
+- Proposed a cascaded diffusion network integrating expert trajectory approximation and safety-guided denoising constraints.
+- Designed an end-to-end UAV planning framework without explicit mapping, achieving closed-loop navigation based solely on 96x96 depth images.
+- Validated the system through real-world integration and deployment on a 3.5-inch quadrotor equipped with Jetson Orin NX, RealSense D435i, and PX4 flight controller.
+
+== Skills
+
+- *Robotics & Real-world Deployment*: Experienced in hardware debugging and physical deployment of multimodal dexterous hands, bimanual manipulation systems, mobile manipulators, and UAVs. Proficient in ROS/ROS 2; mastered NVIDIA Isaac ecosystem (Isaac Sim, Isaac Lab) and simulation/planning tools like CuRobo, Flightmare, and MarSim; familiar with NVIDIA Jetson (Orin) hardware tuning.
+- *Algorithms*: Proficient in PyTorch/JAX and OpenCV. Strong capability in Generative Models (DDPM, EDM, Flow Matching) and Reinforcement Learning (Standard RL: PPO, Q-Learning; Post-Training RL: DPPO, DTQL). Deep understanding of $pi_0.5$ VTLA multimodal alignment, pre-training, and post-training pipelines.
+
+== Awards
+
+- *ICM 2023*: Finalist (Top 3%) in the Interdisciplinary Contest in Modeling (ICM).
+- *RMUC 2023*: National Runner-up (2nd Place) in DJI RoboMaster University Championship (RMUC).

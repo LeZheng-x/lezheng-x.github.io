@@ -1,0 +1,82 @@
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external}
+\usepackage{linespacing_fix}
+\usepackage{cite}
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+linkcolor=cyan,
+filecolor=magenta,urlcolor=blue,
+}
+\begin{document}
+\pagenumbering{gobble}
+%***"%"后面的所有内容是注释而非代码，不会输出到最后的PDF中
+%***使用本模板，只需要参照输出的PDF，在本文档的相应位置做简单替换即可
+%***修改之后，输出更新后的PDF，只需要点击Overleaf中的“Recompile”按钮即可
+%在大括号内填写其他信息，最多填写4个，但是如果选择不填信息，
+%那么大括号必须空着不写，而不能删除大括号。
+%\otherInfo后面的四个大括号里的所有信息都会在一行输出
+%如果想要写两行，那就用两次这个指令（\otherInfo{}{}{}{}）即可
+%个人信息***
+\MyName{郑乐}
+\sepspace
+\SimpleEntry{\textbf{端到端导航 | 移动操作 | 灵巧手VTLA}}
+\SimpleEntry{RapidLab 中山大学机器人感知决策与自主运动实验室}
+\SimpleEntry{zhengle3@mail2.sysu.edu.cn | 15847359042}
+\SimpleEntry{\href{https://lezheng-x.github.io/}{个人主页：https://lezheng-x.github.io/}}
+%照片**
+%照片需要放到images文件夹下，名字必须是you.jpg，注意.jpg后缀（可以去resume.cls第101行处修改），如果不需要照片可以不添加此行命令
+%0.15的意思是，照片的宽度是页面宽度的0.15倍，调整大小，避免遮挡文字
+\yourphoto{0.13}
+%教育背景***
+\section{教育背景}
+%第一个大括号里的内容向左对齐，第二个大括号里的内容向右对齐
+%\textbf{}括号里的字是粗体，\textit{}括号里的字是斜体
+\datedsubsection{\textbf{中山大学}，计算机技术，\textit{硕士 | 推荐免试 | 均分 89/100}}{2024.9 - 2027.7}
+\datedsubsection{\textbf{东北大学}，测控技术与仪器，\textit{本科 | 均分 87/100}}{2020.9 - 2024.7}
+%过往经历***
+\sepspace
+\section{过往经历}
+\datedsubsection{\textbf{智元机器人}，具身算法实习生}{2026.03 - 2026.07}
+\Content
+{针对双臂灵巧操作任务(翻耳机/多物体抓取)，负责构建并打通多模态“视觉-触觉-语言-动作”(VTLA) 算法架构。}
+{训练$\pi_{0.5}$模型、视觉-触觉联合预训练（Visual-Tactile Joint Pre-training），打通了从高质量多模态数据采集、清洗、大模型预训练到后训练的全流程，并成功在灵巧手真机上进行部署验证；完成多模态信息的高效融合。}
+{作为共同第一作者，将相关研究成果总结为 STAR，并投稿至机器人领域顶级国际会议 ICRA 2027（审稿中）。}
+\datedsubsection{\textbf{中山大学 Rapid Lab}，科研实习生}{2024.04 - 2024.08}
+\Content
+{针对移动操作任务(开门/抓取)，负责设计并实现了相关的视觉伺服强化学习算法。}
+{基于iGibson仿真器开发PPO强化学习算法，设计任务导向的奖励函数，实现末端执行器的决策。}
+{作为共同作者，相关研究成果已被机器人领域顶级国际会议 ICRA 2025 录用。}
+\datedsubsection{\textbf{东北大学 T-DT Lab}，RMUC算法组组长}{2021.09 - 2023.08}
+\Content
+{作为算法团队负责人，带领团队进行技术攻关。}
+{负责架构并部署视觉识别算法与运动目标追踪策略，提升机器人在实战对抗中的自动瞄准精度。23赛季设计自动步兵决策算法，与团队实现战术配合。}
+{22赛季RMUC分区赛冠军，23赛季RMUC全国赛亚军。}
+\sepspace
+\section{学术成果}
+\datedsubsection{\textbf{GeoPT}: Privileged Geometric Post-Training for One-Step Whole-Body Motion Planning in Mobile Manipulation}{\textit{ICRA 2027 在投} | \href{https://geopt-commits.github.io/}{主页} | \href{https://lezheng-x.github.io/static/assets/paper/GeoPT.pdf}{论文}}
+\Paper
+{构建同步专家数据流水线，采集全身运动规划、机器人状态与第一视角距离观测；以条件扩散模型作为行为先验，初始化紧凑的单步高斯局部规划器，将动作序列生成压缩为单次前向推理。}
+{提出碰撞触发的特权几何后训练方法，利用可微碰撞距离修正场景碰撞与自碰撞轨迹，并通过冻结的 DDPM 行为先验约束策略漂移；特权几何仅用于训练，在移动操作机器人上完成真机部署。}
+\datedsubsection{\textbf{STAR}: Sparse Tactile Representation Learning in
+Vision–Tactile–Language–Action Models for Dexterous Manipulation}{\textit{ICRA 2027 在投} | \href{https://staranonymousio.github.io/}{主页} | \href{https://arxiv.org/abs/2609.12549v1}{论文}}
+\Paper
+{针对双臂灵巧操作任务，负责构建并打通“视觉-触觉-语言-动作”(VTLA) 多模态算法架构,有效解决触觉数据稀疏性问题。展现出强大的泛化能力和在现实世界任务中的灵巧操作能力。}
+{视觉-触觉联合预训练。采用 MAE（掩码自编码器）算法实现多模态高效融合，攻克了直接训练触觉数据导致操作成功率下降的问题。打通从数据清洗、预训练到后训练的 $\pi_{0.5}$ 模型全流程，并在双臂灵巧手真机上成功部署。}
+\datedsubsection{\textbf{RM-Planner}: Integrating Reinforcement Learning with Whole-Body Model Predictive Control for Mobile Manipulation}{\textit{IEEE ICRA 2025} | \href{https://ieeexplore.ieee.org/document/11127719}{论文}}
+\Paper
+{该研究旨在提升移动操作机器人在未知且复杂环境下的鲁棒作业与运动能力。通过开发该移动操作控制框架，重点实现强化学习与全身模型预测控制(Whole-Body MPC)的算法集成。}
+{末端执行器决策算法设计与训练。基于iGibson仿真平台主导末端执行器的 PPO 强化学习算法开发与任务导向奖励函数设计，完成真机(松灵 RANGER MINI + 宇树 Z1 机械臂，搭载 Jetson AGX Orin 与 Livox Mid-360 雷达)部署。}
+\datedsubsection{\textbf{Diff-Planner}: Cascaded Diffusion-Based Quadrotor Navigation }{2025}
+\Paper
+{提出一种无显式建图的端到端无人机规划框架，仅基于 $96\times96$ 深度图像实现闭环导航；设计级联扩散网络，融合专家轨迹逼近与安全引导的去噪约束。}
+{级联网络设计与训练。将系统部署于 3.5 英寸穿越机（集成 Orin NX、RealSense D435i 与 PX4 飞控）。}
+\section{专业技能}
+\datedsubsection{\textbf{机器人与真机部署}：具备多模态灵巧手、双臂灵巧操作、移动操作系统与小型无人机的实车部署与硬件调试经验；熟悉 ROS/ROS 2 机器人操作系统；掌握 NVIDIA Isaac 生态（Isaac Sim、Isaac Lab）、CuRobo、Flightmare、MarSim 等仿真规划工具的训练部署；熟悉 NVIDIA Jetson（Orin）系列机载算力平台的硬件调试。}{}
+\datedsubsection{\textbf{算法方面}：掌握 PyTorch/JAX 深度学习框架及 OpenCV 计算机视觉库；具备生成式模型（DDPM、EDM、Flow Matching）、强化学习算法（标准 RL：PPO、Q-Learning；后训练 RL：DPPO、DTQL）的开发与落地能力。掌握 $\pi_{0.5}$ 视觉-触觉-语言-动作（VTLA）模型的多模态对齐、预训练与后训练流程。}{}
+\sepspace
+\section{奖励荣誉}
+\datedsubsection{优秀研究生奖}{2024}
+\datedsubsection{2023年美国大学生数学建模竞赛（ICM）Finalist（全球前 3\%）}{2023}
+\datedsubsection{2023年全国大学生机器人大赛机甲大师超级对抗赛(RMUC)国赛亚军}{2023}
+\end{document}
