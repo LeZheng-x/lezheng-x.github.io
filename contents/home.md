@@ -10,8 +10,8 @@ Dexterous manipulation and mobile manipulation.
 
 #### Education
 
-- M.E. in Computer Technology, [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/), 2024–2027 (Average: 89/100).
-- B.E. in Measurement and Control Technology and Instrument, [Northeastern University](https://english.neu.edu.cn/#industries), 2020–2024 (Average: 87/100).
+- M.E. in Computer Technology, [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/), 2024–2027.
+- B.E. in Measurement and Control Technology and Instrument, [Northeastern University](https://english.neu.edu.cn/#industries), 2020–2024.
 
 #### Contact
 
