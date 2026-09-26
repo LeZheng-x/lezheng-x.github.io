@@ -6,7 +6,7 @@ Before joining Sun Yat-sen University, he earned his bachelor's degree from [Nor
 
 #### Research Interests
 
-Dexterous manipulation and mobile manipulation.
+Mobile Manipulation | Dexterous manipulation
 
 #### Education
 
